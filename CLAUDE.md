@@ -11,6 +11,8 @@ Chrome extension that converts weight from lbs to kg on Garmin Connect while pre
 
 ## How It Works
 
+**Prerequisite:** User must have Garmin Connect set to **Statute** units (Settings → Display Preferences → Measurement Units). This keeps distances in miles; the extension only converts weight display from lbs to kg.
+
 The content script injects into `https://connect.garmin.com/*` pages and:
 
 1. Converts "X lbs" text patterns to kg

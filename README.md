@@ -23,7 +23,7 @@ Pick one. Suffer.
 
 ## The Fix
 
-Install this extension. Go to Garmin Connect. See your weight in kg. Keep your mile splits. That's it.
+Keep Garmin Connect set to **Statute** (for miles). Install this extension. The extension converts weight from lbs to kg on the page—your mile splits stay untouched.
 
 - **Zero config** - Install and forget
 - **Body weight + exercise weights** - Converts lbs to kg everywhere
@@ -39,7 +39,8 @@ Since this isn't in the Chrome Web Store:
 3. Toggle **Developer mode** ON (top right corner)
 4. Click **Load unpacked** (top left)
 5. Select the unzipped folder
-6. Visit [connect.garmin.com](https://connect.garmin.com) and check your weight page
+6. **Set Garmin Connect to Statute** - In Garmin Connect, go to Settings → Display Preferences → Measurement Units and select **Statute**. This keeps your distances in miles; the extension handles the weight conversion.
+7. Visit [connect.garmin.com](https://connect.garmin.com) and check your weight page
 
 ## Permissions
 
