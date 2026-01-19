@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Garmin: Miles and Kilos",
+  "version": "1.0",
+  "description": "Converts lbs to kg on Garmin Connect weight page",
+  "content_scripts": [
+    {
+      "matches": ["https://connect.garmin.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
